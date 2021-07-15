@@ -1,0 +1,10 @@
+<!--pages/main/main.wxml-->
+
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <view class="container">
+    <view class="h1">Ludwig ist im Rulamanweg <strong>tech skills</strong> to <strong>creative people</strong>!
+    </view>
+    <view class="text">Change your life and learn to code at one of our campuses around the world.</view>
+    <button bindtap="buttonClicked">Click Here</button>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+/* pages/show/show.wxss */
+.container {
+  justify-content: center;
+}
+
+.banner {
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  align-items: center;
+}
+
+.banner .h1 {
+  padding: 0 10rpx 0 10rpx;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner .text {
+  padding: 0 10rpx 0 10rpx;
+  margin-top: 40rpx;
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}

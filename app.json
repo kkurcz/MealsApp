@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/show/show"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFC22C",
+    "navigationBarTitleText": "Meal Match",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

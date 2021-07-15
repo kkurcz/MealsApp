@@ -1,0 +1,9 @@
+<!--pages/show/show.wxml-->
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('{{photo}}');">
+  <view class="container">
+    <view class="h1">{{name}}
+    </view>
+    <view class="text">{{address}}</view>
+    <view class="text">{{description}}</view>
+  </view>
+</view>

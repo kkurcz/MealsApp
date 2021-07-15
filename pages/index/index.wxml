@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view wx:for="{{restaurants}}" wx:for-item="restaurant" class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('{{restaurant.photo}}');" bindtap="onClick" data-id="{{restaurant.id}}">
+    <view class="h1">
+      {{restaurant.name}}
+    </view>
+    <view class="p">
+      {{restaurant.address}}
+    </view>
+  </view>
+</view>
